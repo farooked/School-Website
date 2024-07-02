@@ -1,2 +1,2 @@
-# School-Website
+# School-Sigma
 School Work
