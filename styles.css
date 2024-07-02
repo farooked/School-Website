@@ -1,3 +1,15 @@
-h1 {
-    font-family:'Courier New', Courier, monospace;
+body {
+    font-family: "Roboto", sans-serif;
+}
+.navbar {
+    list-style-type: none; /* Removes bullets */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+    border: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.navlink {
+    display: inline;
+    text-align: center;
+    color: black;
 }
