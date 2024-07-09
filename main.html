@@ -2,39 +2,103 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ansford Academy</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" src="AnsfordIcon.png">
 </head>
 <body>
     <header>
-        <h1>Ansford Academy</h1>
-        <nav>
-            <il class="navbar">
-                <li class="navlink"><a href="#">Home</a></li>
-                <li class="navlink"><a href="#">About</a></li>
-                <li class="navlink"><a href="#">Courses</a></li>
-                <li class="navlink"><a href="#">Contact</a></li>
-            </il>
-        </nav>
+        <div class="container">
+            <nav>
+                <div class="logo">Ansford Academy</div>
+                <ul class="nav-links">
+                    <li><a href="main.html">Home</a></li>
+                    <li><a href="main.html#about">About</a></li>
+                    <li><a href="main.html#academics">Academics</a></li>
+                    <li><a href="main.html#admissions">Admissions</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <main>
-        <section class="featured">
-            <h2>Featured Programs</h2>
-            <!-- Add program details here -->
+        <section class="hero" id="home">
+            <div class="container hero-content">
+                <h1>Welcome to Ansford</h1>
+                <p>Learning Together To Lead Our Lives</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
         </section>
 
-        <section class="news">
-            <h2>Latest News</h2>
+        <section class="features" id="about">
+            <div class="container">
+                <h2>Why Choose Us</h2>
+                <div class="feature-grid">
+                    <div class="feature-item">
+                        <i class="fas fa-graduation-cap"></i>
+                        <h3>Excellence in Education</h3>
+                        <p>Our dedicated faculty ensures the highest standards of education.</p>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-users"></i>
+                        <h3>Diverse Community</h3>
+                        <p>We celebrate diversity and foster an inclusive learning environment.</p>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-laptop"></i>
+                        <h3>Modern Facilities</h3>
+                        <p>State-of-the-art facilities to support learning and growth.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="news" id="academics">
+            <div class="container">
+                <h2>Latest News</h2>
+                <div class="news-grid">
+                    <div class="news-item">
+                        <img src="Plane.jpg" alt="News 1">
+                        <div class="news-content">
+                            <h3>Plane Challenge</h3>
+                            <p>A team based activity where students canwork together to complete a challenge.</p>
+                        </div>
+                    </div>
+                    <div class="news-item">
+                        <img src="Tie.jpg" alt="News 2">
+                        <div class="news-content">
+                            <h3>Uniformly</h3>
+                            <p>Congratulations to our students for their outstanding performance in national competitions.</p>
+                        </div>
+                    </div>
+                    <div class="news-item">
+                        <img src="Tellmi.jpg" alt="News 3">
+                        <div class="news-content">
+                            <h3>Tellmi</h3>
+                            <p>Tellmi is a mental health app which allows students to understand themselves better.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
 
     <footer>
-        <p>© 2024 Modern School. All rights reserved.</p>
+        <div class="container">
+            <ul class="footer-links">
+                <li><a href="main.html">Home</a></li>
+                <li><a href="main.html#about">About</a></li>
+                <li><a href="main.html#academics">Academics</a></li>
+                <li><a href="main.html#admissions">Admissions</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <p>&copy; 2024 Ansford Academy. All rights reserved.</p>
+        </div>
     </footer>
 </body>
 </html>
